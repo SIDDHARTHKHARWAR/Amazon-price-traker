@@ -9,8 +9,8 @@ def extract_price():
     return price
 SMTP_SERVER = "smtp.gmail.com"
 PORT = 587
-EMAIL_ID = "196301039@gkv.ac.in"
-PASSWORD = "Gujjar@9837"
+EMAIL_ID = "siddharthkharwar@gmail.com"
+PASSWORD = "123456789"
 def notify():
     server = SMTP(SMTP_SERVER,PORT)
     server.starttls()
